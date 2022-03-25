@@ -12,7 +12,7 @@ with open('hotline1.txt', 'r') as file:
 with open('hotline1_new.txt', 'w') as out:                  # Добавление текста в новый файл
     out.write(text)
 
-p = re.compile(r'[8][(]\d{3}[)]\d{3}-\d{2}-\d{2}')          # Компилция шаблона.
+p = re.compile(r'[8][(]\d{3}[)]\d{3}-\d{2}-\d{2}')          # Компиляция шаблона.
 
 print('Номера телефонов соответствующих шаблону: ', p.findall(text))
 print('Количество полученных элементов: ', len(p.findall(text)))
