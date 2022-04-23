@@ -1,6 +1,5 @@
 import module
 
-
 # module.get_set()
 
 # module.get_txt()
