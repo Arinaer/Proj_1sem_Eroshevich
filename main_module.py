@@ -10,3 +10,5 @@ import module
 print(module.file_doc.doc)
 
 # print(module.get_binary())
+
+# print(dir(module))
